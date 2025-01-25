@@ -15,10 +15,10 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  -CLK  
+  -clock 
   -
-  -in0 
-  -in1
+  -IN0 
+  -IN1
   -
   -
   -
@@ -26,13 +26,13 @@ pinout:
 
   # Outputs
   uo[0]: "a"
-  uo[1]: "0"
-  uo[2]: "0"
+  uo[1]: "b"
+  uo[2]: "c"
   uo[3]: "d"
   uo[4]: "e"
   uo[5]: "f"
-  uo[6]: ""
-  uo[7]: ""
+  uo[6]: "g"
+  uo[7]: "dot"
 
   # Bidirectional pins
   uio[0]: ""
